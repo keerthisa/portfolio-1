@@ -1,0 +1,146 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    /* background-color: rgb(166, 181, 181); */ 
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/texture.svg");
+    background: linear-gradient(0deg, rgba(34,191,195,1) 0%,rgba(45,245,253,0.020045518207282953) 80%);
+   
+    background-size:cover;
+    background-attachment: fixed;
+    position:relative;
+    color: #fff;
+    box-shadow: 0 0 8px rgb(0 0 0 /30%);
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.resume-button{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgba(34,191,195,1);
+}
+.resume-button:hover{
+color: #B0E0E6;
+}
+
+.frame {
+    width: 90%;
+    margin: auto 40px;
+    text-align: center;
+  }
+  
+  
+  .custom-eft {
+    padding: 0 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    font-size: 4em;
+  }
+  .eft12 {
+    position: relative;
+  }
+  
+  .eft12:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #000;
+    bottom: 40px;
+    border-radius: 10px;
+  }
+   .eft12 span{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to bottom, #000, #000 50%, #B0E0E6 50%, rgb(94, 185, 187) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+  }
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: rgba(34,191,195,1);
+}
+.servicesText:hover {
+    border: 1px solid rgba(34,191,195,1);
+}
+.navbarScroll.navbarDark {
+    background-color: rgb(94, 185, 187);
+}
+/* social media icons styling */
+#contact-me-button{
+    background-color: rgba(34,191,195,1);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.fab {
+    color: #000000;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+#embedmap-canvas img {
+    max-width: none !important;
+    background: none !important;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.skills-color{
+  
+    background-color: #f1f1f1;
+    padding:7% 15%;
+}
+
+.img-wrapper{
+    justify-self: center !important;
+    height: 100px;
+    width: 100px ;
+}
+#img-fluidpic{
+    border-radius: 50px;
+}
